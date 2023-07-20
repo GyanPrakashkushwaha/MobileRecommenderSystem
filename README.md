@@ -15,3 +15,18 @@
 11. Techno
 12. Infinix
 
+---
+## Mobile Specs 
+
+1. name
+2. ratings
+3. image
+4. price
+5. storage
+6. ram
+7. Os
+8. processor
+9. camera
+10. display
+11. network
+12. battery
