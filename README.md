@@ -10,10 +10,9 @@
 6. Vivo
 7. Oppo
 8. Motorola
-9. Nokia
-10. Google (Pixel)
-11. Techno
-12. Infinix
+9. Google (Pixel)
+10. Techno
+11. Infinix
 
 ---
 ## Mobile Specs 
