@@ -1,3 +1,8 @@
+
+# Deleting the Data
+data/data_to_merge/*
+data/raw_data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
