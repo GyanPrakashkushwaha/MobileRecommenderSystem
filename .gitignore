@@ -1,7 +1,7 @@
 
 # Deleting the Data
-data/data_to_merge/*
-data/raw_data/*
+data/*
+data/cleaned_dataset/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
