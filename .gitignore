@@ -1,7 +1,6 @@
 
 # Deleting the Data
 data/*
-data/cleaned_dataset/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
