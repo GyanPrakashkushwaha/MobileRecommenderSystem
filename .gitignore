@@ -1,6 +1,7 @@
 
 # Deleting the Data
 data/*
+kaggle/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
