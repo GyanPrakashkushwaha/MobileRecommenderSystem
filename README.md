@@ -1,6 +1,11 @@
 # MobileRecommenderSystem
 
-## Mobile List in which my model will be trained
+## Data Aquasition:
+Scraped data from Flipkart Using bs4 and requests Library.
+
+Download data from my Kaggle account : https://www.kaggle.com/gyanprakashkushwaha
+
+## Mobile List in which my model is Trained
 
 1. Xiaomi (Mi)
 2. Samsung
@@ -15,7 +20,7 @@
 11. Infinix
 
 ---
-## Mobile Specs 
+## Mobile Specs:
 
 1. name
 2. ratings
@@ -29,3 +34,11 @@
 10. display
 11. network
 12. battery
+
+
+# Model Training:
+1. Vecorizations to convert text to vectors(numbers)
+2. cosine similarity to recommend mobiles
+
+# Deployment and webpage:
+Used Streamlit 
