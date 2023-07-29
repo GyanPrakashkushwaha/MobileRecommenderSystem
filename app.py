@@ -4,11 +4,17 @@ import requests
 import pandas as pd
 import random
 from src.remove_ import remove
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", layout="wide", initial_sidebar_state="expanded")
 
 df = pickle.load(file=open(file=r'src/model/dataframe.pkl', mode='rb'))
-similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
+
+cont_vect = CountVectorizer(max_features=1000)
+vectors = cont_vect.fit_transform(df['corpus']).toarray()
+similarity = cosine_similarity(vectors)
+# similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
 
 
 remove()
