@@ -1,9 +1,11 @@
-# MobileRecommenderSystem
+# MobileRecommenderSystem 📲
 
 ## Data Aquasition:
 Scraped data from Flipkart Using bs4 and requests Library.
 
 Download data from my Kaggle account : https://www.kaggle.com/gyanprakashkushwaha
+
+---
 
 ## Mobile List in which my model is Trained
 
@@ -32,10 +34,12 @@ Download data from my Kaggle account : https://www.kaggle.com/gyanprakashkushwah
 9. network
 10. battery
 
+---
 
 # Model Training:
 1. Vecorizations to convert text to vectors(numbers)
 2. cosine similarity to recommend mobiles
 
+---
 # Deployment and webpage:
 Used Streamlit 
