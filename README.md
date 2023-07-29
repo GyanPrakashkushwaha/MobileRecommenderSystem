@@ -10,7 +10,6 @@
 6. Vivo
 7. Oppo
 8. Motorola
-9. Google (Pixel)
 10. Techno
 11. Infinix
 
@@ -21,11 +20,9 @@
 2. ratings
 3. image
 4. price
-5. storage
-6. ram
-7. Os
-8. processor
-9. camera
-10. display
-11. network
-12. battery
+5. storage and ram
+6. processor and Operating System
+7. camera
+8. display
+9. network
+10. battery
