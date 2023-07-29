@@ -75,31 +75,31 @@ if st.button('Recommend'):
     with col1:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[0]}\n"
                     f"Ratings: {mobiles_ratings[0]}  \n"
-                    f"Price: {mobiles_price[0]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[0])
 
     with col2:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[1]}\n"
                     f"Ratings: {mobiles_ratings[1]}  \n"
-                    f"Price: {mobiles_price[1]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[1])
 
     with col3:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[2]}\n"
                     f"Ratings: {mobiles_ratings[2]}  \n"
-                    f"Price: {mobiles_price[2]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[2])
 
     with col4:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[3]}\n"
                     f"Ratings: {mobiles_ratings[3]}  \n"
-                    f"Price: {mobiles_price[3]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[3])
 
     with col5:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[4]}\n"
                     f"Ratings: {mobiles_ratings[4]}  \n"
-                    f"Price: {mobiles_price[4]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[4])
 
     st.markdown('---')
@@ -111,31 +111,31 @@ if st.button('Recommend'):
     with col6:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[5]}\n"
                     f"Ratings: {mobiles_ratings[5]}  \n"
-                    f"Price: {mobiles_price[5]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[5])
 
     with col7:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[6]}\n"
                     f"Ratings: {mobiles_ratings[6]}  \n"
-                    f"Price: {mobiles_price[6]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[6])
 
     with col8:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[7]}\n"
                     f"Ratings: {mobiles_ratings[7]}  \n"
-                    f"Price: {mobiles_price[7]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[7])
 
     with col9:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[8]}\n"
                     f"Ratings: {mobiles_ratings[8]}  \n"
-                    f"Price: {mobiles_price[8]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[8])
 
     with col10:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[9]}\n"
                     f"Ratings: {mobiles_ratings[9]}  \n"
-                    f"Price: {mobiles_price[9]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG[9])
 
     mobile_name_variety , mobile_IMG_variety , mobiles_ratings_variety , mobiles_price_variety = recommend_different_variety(selected_mobile)    
@@ -149,31 +149,31 @@ if st.button('Recommend'):
     with col11:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[0]}\n"
                     f"Ratings: {mobiles_ratings_variety[0]}  \n"
-                    f"Price: {mobiles_price_variety[0]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[0])
 
     with col12:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[1]}\n"
                     f"Ratings: {mobiles_ratings_variety[1]}  \n"
-                    f"Price: {mobiles_price_variety[1]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[1])
 
     with col13:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[2]}\n"
                     f"Ratings: {mobiles_ratings_variety[2]}  \n"
-                    f"Price: {mobiles_price_variety[2]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[2])
 
     with col14:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[3]}\n"
                     f"Ratings: {mobiles_ratings_variety[3]}  \n"
-                    f"Price: {mobiles_price_variety[3]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[3])
 
     with col15:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[4]}\n"
                     f"Ratings: {mobiles_ratings_variety[4]}  \n"
-                    f"Price: {mobiles_price_variety[4]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[4])
 
     col16, col17, col18, col19, col20 = st.columns(5)
@@ -181,31 +181,31 @@ if st.button('Recommend'):
     with col16:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[5]}\n"
                     f"Ratings: {mobiles_ratings_variety[5]}  \n"
-                    f"Price: {mobiles_price_variety[5]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[5])
 
     with col17:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[6]}\n"
                     f"Ratings: {mobiles_ratings_variety[6]}  \n"
-                    f"Price: {mobiles_price_variety[6]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[6])
 
     with col18:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[7]}\n"
                     f"Ratings: {mobiles_ratings_variety[7]}  \n"
-                    f"Price: {mobiles_price_variety[7]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[7])
 
     with col19:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[8]}\n"
                     f"Ratings: {mobiles_ratings_variety[8]}  \n"
-                    f"Price: {mobiles_price_variety[8]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[8])
 
     with col20:
         st.markdown(f"<p style='text-align: center;'>{mobile_name_variety[9]}\n"
                     f"Ratings: {mobiles_ratings_variety[9]}  \n"
-                    f"Price: {mobiles_price_variety[9]}", unsafe_allow_html=True)
+                    , unsafe_allow_html=True)
         st.image(mobile_IMG_variety[9])
 
 st.markdown('---')
