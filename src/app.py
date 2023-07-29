@@ -3,30 +3,12 @@ import pickle
 import requests
 import pandas as pd
 import random
+from remove_ import remove
 
 st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", layout="wide", initial_sidebar_state="expanded")
 
 df = pickle.load(file=open(file=r'model\dataframe.pkl', mode='rb'))
 similarity = pickle.load(file=open(file=r'model\similarity.pkl', mode='rb'))
-
-def remove():
-    st.markdown(""" 
-        <style>
-        .css-10pw50 {
-            display: none;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-    st.markdown(""" 
-    <style>
-
-    .css-10pw50.egzxvld1
-    {
-    visibility:hidden;
-    }
-    </style>
-    """,unsafe_allow_html=True)
 
 
 remove()

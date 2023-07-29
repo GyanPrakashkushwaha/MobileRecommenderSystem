@@ -2,7 +2,7 @@
 # Deleting the Data
 data/*
 kaggle/data
-src/model
+src/model/similarity.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
