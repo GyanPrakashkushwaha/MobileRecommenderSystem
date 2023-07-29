@@ -2,4 +2,3 @@ streamlit
 pandas
 seaborn
 scikit-learn
-# -e .
