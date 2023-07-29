@@ -4,8 +4,8 @@ import requests
 import pandas as pd
 import random
 from src.remove_ import remove
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+# from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", layout="wide", initial_sidebar_state="expanded")
 
