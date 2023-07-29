@@ -16,7 +16,7 @@ remove()
 def recommend_different_variety(mobile):
     mobile_index = df[df['name'] == mobile].index[0]
     similarity_array = similarity[mobile_index]
-    different_variety = random.sample(list(enumerate(similarity_array)),k=10)
+    different_variety = sorted(list(enumerate(similarity_array)), reverse=True, key=lambda x: x[1])[100:111]
 
 
     recommended_mobiles_variety = []
@@ -56,8 +56,8 @@ def fetch_IMG(mobile_index):
 
 
 st.title('Mobile Recommender System')
-st.markdown('> ##### ***Guide***: :choose Select a mobile phone of your choice from the available options, and upon clicking the "Recommend" button, the model will promptly showcase the most closely related mobile phones based on your selection. The recommendation system leverages similarity metrics to identify and present the mobile phones with the highest resemblance to your chosen device, enabling you to explore alternatives that align with your preferences and requirements and each time you click the recommend button the Other Variety of mobiles get updated.')
-
+st.markdown('> ##### ***Guide***: :choose Select a mobile phone of your choice from the available options, and upon clicking the "Recommend" button, the model will promptly showcase the most closely related mobile phones based on your selection. The recommendation system leverages similarity metrics to identify and present the mobile phones with the highest resemblance to your chosen device, enabling you to explore alternatives that align with your preferences and requirements.')
+st.markdown(' ')
 mobiles = df['name'].values
 selected_mobile = st.selectbox(label='Select Mobile Name', options=mobiles)
 
@@ -203,4 +203,4 @@ if st.button('Recommend'):
         st.image(mobile_IMG_variety[9])
 
 st.markdown('---')
-st.markdown('> ## Made by Gyan Prakash Kushwaha')
+st.markdown('> ### Made by Gyan Prakash Kushwaha')
