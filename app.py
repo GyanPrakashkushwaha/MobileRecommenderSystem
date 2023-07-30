@@ -199,5 +199,4 @@ if st.button('Recommend'):
         st.image(mobile_IMG_variety[9])
 
 st.markdown('---')
-st.markdown('> ### Thank You for visiting🙂')
-st.markdown('> ### Made by👨🏻‍💻 Gyan Prakash Kushwaha')
+st.markdown('> ###Thank You for visiting🙂 Made by👨🏻‍💻 Gyan Prakash Kushwaha')
