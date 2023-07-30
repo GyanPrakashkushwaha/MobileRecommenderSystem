@@ -4,11 +4,7 @@ Try it out by yourself! - https://mobile-recommender-system-gyanprakashkushwaha.
 ---
 
 # Demo
-
-
-https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem/assets/127115588/2cda816b-169c-4383-8c7e-c980be27a2ae
-
-
+https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem/assets/127115588/ad3b906c-2179-47b9-a7c8-167aaf39d588
 
 ## Data Aquasition:
 Scraped data from Flipkart Using bs4 and requests Library.
