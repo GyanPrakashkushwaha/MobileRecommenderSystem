@@ -1,29 +1,22 @@
 import streamlit as st
 import pickle
-import requests
 import pandas as pd
 import random
 from src.remove_ import remove
-# from sklearn.feature_extraction.text import CountVectorizer
-# from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", layout="wide", initial_sidebar_state="expanded")
 
 df = pickle.load(file=open(file=r'src/model/dataframe.pkl', mode='rb'))
-
-# cont_vect = CountVectorizer(max_features=1000)
-# vectors = cont_vect.fit_transform(df['corpus']).toarray()
-# similarity = cosine_similarity(vectors)
 similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
-
+st.write(df.sample(50))
+# print(df.sample(50))
 
 remove()
 
 def recommend_different_variety(mobile):
     mobile_index = df[df['name'] == mobile].index[0]
     similarity_array = similarity[mobile_index]
-    different_variety = sorted(list(enumerate(similarity_array)), reverse=True, key=lambda x: x[1])[100:111]
-
+    different_variety = random.sample(list(enumerate(similarity_array)),k=10)
 
     recommended_mobiles_variety = []
     recommended_mobiles_IMG_variety = []
@@ -42,7 +35,6 @@ def recommend(mobile):
     mobile_index = df[df['name'] == mobile].index[0]
     similarity_array = similarity[mobile_index]
     similar_10_mobiles = sorted(list(enumerate(similarity_array)), reverse=True, key=lambda x: x[1])[1:11]
-
 
     recommended_mobiles = []
     recommended_mobiles_IMG = []
@@ -104,9 +96,7 @@ if st.button('Recommend'):
 
     st.markdown('---')
 
-
     col6, col7, col8, col9, col10 = st.columns(5)
-
 
     with col6:
         st.markdown(f"<p style='text-align: center;'>{mobile_name[5]}\n"
