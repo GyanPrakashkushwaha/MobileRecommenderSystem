@@ -8,8 +8,7 @@ st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", l
 
 df = pickle.load(file=open(file=r'src/model/dataframe.pkl', mode='rb'))
 similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
-# st.write(df.sample(50))
-# print(df.sample(50))
+
 
 remove()
 
@@ -53,7 +52,7 @@ def fetch_IMG(mobile_index):
     return df['imgURL'].iloc[mobile_index]
 
 
-st.title('Mobile Recommender System')
+st.title('Mobile Recommender System📲')
 st.markdown('> ##### ***Guide***: :choose Select a mobile phone of your choice from the available options, and upon clicking the "Recommend" button, the model will promptly showcase the most closely related mobile phones based on your selection. The recommendation system leverages similarity metrics to identify and present the mobile phones with the highest resemblance to your chosen device, enabling you to explore alternatives that align with your preferences and requirements.')
 st.markdown(' ')
 mobiles = df['name'].values
@@ -199,4 +198,4 @@ if st.button('Recommend'):
         st.image(mobile_IMG_variety[9])
 
 st.markdown('---')
-st.markdown('> ### Made by Gyan Prakash Kushwaha')
+st.markdown('> ### Made by👨🏻‍💻 Gyan Prakash Kushwaha')
