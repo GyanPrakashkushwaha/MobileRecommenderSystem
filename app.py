@@ -16,7 +16,7 @@ remove()
 def recommend_different_variety(mobile):
     mobile_index = df[df['name'] == mobile].index[0]
     similarity_array = similarity[mobile_index]
-    different_variety = sorted(list(enumerate(similarity_array)), reverse=True, key=lambda x: x[1])[100:111]
+    different_variety = random.sample(list(enumerate(similarity_array)),k=10)
 
     recommended_mobiles_variety = []
     recommended_mobiles_IMG_variety = []
