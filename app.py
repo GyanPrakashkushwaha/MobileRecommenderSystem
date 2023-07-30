@@ -8,7 +8,7 @@ st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", l
 
 df = pickle.load(file=open(file=r'src/model/dataframe.pkl', mode='rb'))
 similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
-st.write(df.sample(50))
+# st.write(df.sample(50))
 # print(df.sample(50))
 
 remove()
