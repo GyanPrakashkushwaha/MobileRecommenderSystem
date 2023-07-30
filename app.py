@@ -54,6 +54,7 @@ def fetch_IMG(mobile_index):
 
 st.title('Mobile Recommender System📲')
 st.markdown('> ##### ***Guide***: :choose Select a mobile phone of your choice from the available options, and upon clicking the "Recommend" button, the model will promptly showcase the most closely related mobile phones based on your selection. The recommendation system leverages similarity metrics to identify and present the mobile phones with the highest resemblance to your chosen device, enabling you to explore alternatives that align with your preferences and requirements.')
+st.markdown('> ##### Note-If just click the recommend button again without selecting any mobiles you will get to see new mobile phones in the Other Variety of mobiles section.')
 st.markdown(' ')
 mobiles = df['name'].values
 selected_mobile = st.selectbox(label='Select Mobile Name', options=mobiles)
@@ -198,4 +199,5 @@ if st.button('Recommend'):
         st.image(mobile_IMG_variety[9])
 
 st.markdown('---')
+st.markdown('> ### Thank You for visiting🙂')
 st.markdown('> ### Made by👨🏻‍💻 Gyan Prakash Kushwaha')
