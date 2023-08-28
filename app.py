@@ -5,6 +5,7 @@ import random
 from src.remove_ import remove
 
 st.set_page_config(page_title="Mobile Recommender System", page_icon=":📲:", layout="wide", initial_sidebar_state="expanded")
+st.set_theme('dark')
 
 df = pickle.load(file=open(file=r'src/model/dataframe.pkl', mode='rb'))
 similarity = pickle.load(file=open(file=r'src/model/similarity.pkl', mode='rb'))
