@@ -1,52 +1,53 @@
 # MobileRecommenderSystem 📲
 
-### Try it out by yourself!:
-https://mobile-recommender-system-gyanprakashkushwaha.streamlit.app/
+Try it out by yourself! - https://mobile-recommender-system-gyanprakashkushwaha.streamlit.app/
 ---
 
 # Demo
-https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem/assets/127115588/ad3b906c-2179-47b9-a7c8-167aaf39d588
 
-## Data Aquasition:
-Scraped data from Flipkart Using bs4 and requests Library.
+https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem/assets/127115588/2cda816b-169c-4383-8c7e-c980be27a2ae
 
-Download data from my Kaggle account : https://www.kaggle.com/gyanprakashkushwaha
 
----
+## About
 
-## Mobile List in which my model is Trained
+The model promptly showcase the most closely related mobile phones based on selection.The recommendation system leverages similarity metrics to identify and present the mobile phones with the highest similarity to the chosen device, enabling to explore alternatives that align with the preferences and requirements.
 
-1. Xiaomi (Mi)
-2. Samsung
-3. Apple
-4. OnePlus
-5. Realme
-6. Vivo
-7. Oppo
-8. Motorola
-10. Techno
-11. Infinix
+## Features
 
----
-## Mobile Specs:
+List the key features and functionalities of your project. This could be a bulleted or numbered list.
 
-1. name
-2. ratings
-3. image
-4. price
-5. storage and ram
-6. processor and Operating System
-7. camera
-8. display
-9. network
-10. battery
+- showcase most similar mobile phones based on selection.
+- Showcase mobiles randomly to explore other mobiles as well.
 
----
 
-# Model Training:
-1. Vecorizations to convert text to vectors(numbers)
-2. cosine similarity to recommend mobiles
 
----
-# Deployment and webpage:
-Used Streamlit 
+## Cloning and Running
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   
+```python
+git clone https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem.git
+```
+
+2. Navigate to the project directory:
+
+```python
+cd MobileRecommenderSystem
+```
+
+3. Install the required dependencies:
+```python
+pip install -r requirements.txt
+```
+   
+4. Run the the streamlit app:
+```python
+python app.py
+```
+
+## Usage
+
+If you are to buy a new mobile phone you can use this to find similar mobiles
+
+
