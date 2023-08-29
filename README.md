@@ -35,6 +35,12 @@ git clone https://github.com/GyanPrakashkushwaha/MobileRecommenderSystem.git
 ```python
 cd MobileRecommenderSystem
 ```
+3. Create virtaul environment and activate it.
+```python
+virtalenv movieVenv 
+movieVenv/Scipts/activate.ps1
+```
+
 
 3. Install the required dependencies:
 ```python
